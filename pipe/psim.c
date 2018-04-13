@@ -20,6 +20,7 @@
 #define DEFAULTNAME "Y86 Simulator: "
 
 #ifdef HAS_GUI
+#define USE_INTERP_RESULT
 #include <tk.h>
 #endif /* HAS_GUI */
 
